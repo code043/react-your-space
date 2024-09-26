@@ -1,0 +1,28 @@
+.items {
+  display: flex;
+  gap: 24px;
+}
+.items li {
+  width: 310px;
+  height: 238px;
+  border-radius: 16px;
+  box-shadow: 10px 10px 10px 10px inset;
+  padding: 24px 22px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: inset -8px -8px 24px rgba(0, 0, 0, 0.25),
+    inset 4px 4px 24px rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+}
+
+.items img,
+h2 {
+  margin-bottom: 16px;
+}
+.items h2 {
+  font-family: "Space Mono", system-ui;
+  font-size: 20px;
+}

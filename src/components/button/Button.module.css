@@ -5,7 +5,13 @@
   height: 66px;
   padding: 24px 40px;
   font-size: 20px;
-  font-family: "Space Mono", sans-serif;
+  font-family: "Space Mono", system-ui;
+  font-weight: 600;
   border: none;
   border-radius: 40px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: 1px 1px 10px 2px #acb3ec;
 }

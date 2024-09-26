@@ -9,9 +9,14 @@ body {
   display: flex;
   justify-content: center;
 }
+li {
+  list-style: none;
+}
 .container {
-  background-color: rgb(0, 0, 0);
   width: 1440px;
+  height: auto;
+  padding-bottom: 40px;
+  background-color: rgb(0, 0, 0);
 }
 .main {
   display: flex;
@@ -23,6 +28,7 @@ body {
 }
 .main .text {
   position: relative;
+  left: 34px;
   margin-left: 40px;
   margin-top: 213px;
   width: 539px;
@@ -32,24 +38,56 @@ body {
 }
 .text h1 {
   width: 600px;
-  left: 100px;
 }
 .text p {
-  font-family: "Space Mono";
+  font-family: "Space Mono", system-ui;
   font-size: 22px;
   color: #fff;
   margin-bottom: 24px;
 }
-.main .number {
+.main .numbers {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(6, auto);
+  gap: 120px;
+  position: relative;
+  right: 50px;
   width: 850px;
   height: 796px;
   background-image: url("./image/galax.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 50px;
+}
+.number-left,
+.number-right {
+  width: 235px;
+}
+
+.number-right h1,
+.number-left h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: "Bitter", system-ui;
+  font-weight: 600;
+}
+.numbers p {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Space Mono", system-ui;
+}
+.number-right {
+  grid-column: 3;
+  grid-row: 4;
+}
+.number-left {
+  grid-column: 4;
+  grid-row: 2;
 }
 
 .list {
   display: flex;
   justify-content: center;
+  color: #fff;
 }

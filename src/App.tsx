@@ -15,19 +15,19 @@ function App() {
           </p>
           <Button styleBtn="btn">Get started</Button>
         </div>
-        <div className="number">
-          <div>
-            <Title styleHeading="">Title</Title>
-            <p>pragrfo</p>
+        <div className="numbers">
+          <div className="number-right">
+            <Title styleHeading="">986K+</Title>
+            <p>Lorem ipsum dolor sit</p>
           </div>
-          <div>
-            <Title styleHeading="">Title</Title>
-            <p>pragrfo</p>
+          <div className="number-left">
+            <Title styleHeading="">256B+</Title>
+            <p>Lorem ipsum dolor sit</p>
           </div>
         </div>
       </main>
       <div className="list">
-        <List />
+        <List styleList="items" />
       </div>
     </div>
   );
