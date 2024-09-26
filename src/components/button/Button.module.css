@@ -1,0 +1,11 @@
+.btn {
+  display: grid;
+  place-content: center;
+  width: 215px;
+  height: 66px;
+  padding: 24px 40px;
+  font-size: 20px;
+  font-family: "Space Mono", sans-serif;
+  border: none;
+  border-radius: 40px;
+}
